@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:request:20160119':
+    - dynamic-module-loader > winston > request:
+        patched: '2019-04-05T08:32:44.885Z'
+    - dynamic-module-loader > hurt-locker > winston > request:
+        patched: '2019-04-05T08:32:44.885Z'
+  'npm:tar:20151103':
+    - dynamic-module-loader > tar:
+        patched: '2019-04-05T08:32:44.885Z'
